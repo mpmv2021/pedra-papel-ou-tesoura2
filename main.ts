@@ -26,9 +26,9 @@ input.onGesture(Gesture.Shake, function () {
         if (minha_escolha == 1) {
             basic.showString("Empatamos")
         } else if (minha_escolha == 2) {
-            basic.showString("Perdi")
-        } else {
             basic.showString("Ganhei")
+        } else {
+            basic.showString("Perdi")
         }
     } else if (outra_escolha == 2) {
         basic.pause(2000)
